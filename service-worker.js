@@ -3,17 +3,8 @@ const CACHE_NAME = 'custodyx-ai-v1';
 const URLS_TO_CACHE = [
   '/',
   '/index.html',
-  '/index.tsx',
   '/manifest.json',
   '/icon.svg',
-  // External assets from CDN - requires CORS support from the CDN
-  'https://aistudiocdn.com/@google/genai@^1.22.0',
-  'https://aistudiocdn.com/react@^19.2.0',
-  'https://aistudiocdn.com/react-dom@^19.2.0/',
-  'https://aistudiocdn.com/recharts@^2.13.0',
-  'https://aistudiocdn.com/react-markdown@^10.1.0',
-  'https://cdn.tailwindcss.com',
-  'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap',
 ];
 
 // Install the service worker and cache the app shell
